@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2A840B85-B835-4485-A20B-4EDDED411C2C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ArraysInSwift</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>89BBE17928CF353F1A621A3E4D2814D3894DBD59</key>
+		<string>https://github.com/everythingswift/ArraysInSwift.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ArraysInSwift.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>89BBE17928CF353F1A621A3E4D2814D3894DBD59</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/everythingswift/ArraysInSwift.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>89BBE17928CF353F1A621A3E4D2814D3894DBD59</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>89BBE17928CF353F1A621A3E4D2814D3894DBD59</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ArraysInSwift</string>
+		</dict>
+	</array>
+</dict>
+</plist>
