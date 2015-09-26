@@ -66,7 +66,7 @@ integerArray.sort {$0 < $1}
 
 integerArray
 
-let descendingArray = integerArray.sorted{$1 < $0}
+let descendingArray = integerArray.sort{$1 < $0}
 
 descendingArray
 
@@ -98,7 +98,7 @@ integerArray += [5, 4, 1]
 
 for i in integerArray{
     
-    println(i)
+    print(i)
     
 }
 
@@ -107,7 +107,7 @@ for i in integerArray{
 
 func hasPrefix(word:String) -> Bool
 {
-    var firstCharIndex = advance(word.startIndex, 0)
+    var firstCharIndex = word.startIndex.advancedBy(0)
     var firstChar = word[firstCharIndex]
     if(firstChar == "A")
     {
@@ -123,7 +123,7 @@ let wordsWithA = words.filter(hasPrefix)
 wordsWithA
 
 //Create an array of strings and sort them in descending order
-let wordsDescending = words.sorted{$1 < $0}
+let wordsDescending = words.sort{$1 < $0}
 wordsDescending
 
 //Create an array of characters and append each of them using 'reduce' method
@@ -143,7 +143,7 @@ func canAdd(myArray:[Int], addAtIndex:Int) -> Bool{
 }
 
 var integers = [3, 4, 5, 7, 8]
-if (canAdd(integers, 8))
+if (canAdd(integers, addAtIndex:8))
 {
     integers.append(9)
 }
